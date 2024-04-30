@@ -5,7 +5,6 @@ import { SignupSchema } from "../utils";
 
 function Registration() {
   const handleOnSubmit = (values, actions) => {
-    console.log(values, actions);
     alert(JSON.stringify(values));
   };
 
